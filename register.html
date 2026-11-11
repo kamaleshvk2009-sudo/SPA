@@ -1,0 +1,74 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>School Portal-Registration</title>
+</head>
+<body bgcolor="#F0F8FF">
+
+<header>
+    <h1 align="center">Student Registration</h1>
+</header>
+
+<nav align="center">
+    <a href="index.html">Home</a>
+    <a href="subject.html">Subjects</a>
+    <a href="register.html">Register</a>
+    <a href="resource.html">Resources</a>
+</nav>
+
+<hr>
+
+<main>
+    <section>
+        <h2><font color="#BC8F8F">Registration Form</font></h2>
+
+        <form action="#" method="get">
+            <fieldset>
+                <legend><em>Personal details</em></legend>
+
+                <label for="name">Student Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your Name" required><br><br>
+
+                <label for="email">Email:</label>
+                <input type="text" id="email" name="email" placeholder="Enter your Email" required><br><br>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter phone number" required><br><br>
+
+                <label for="dob">Date of Birth</label>
+                <input type="date" id="dob" name="dob"><br><br>
+
+                <label for="group">Select Group:</label>
+                <select id="group" name="group">
+                    <option value="cs">COMPUTER SCIENCE</option>
+                    <option value="bio">BIO-ZOLOGY</option>
+                    <option value="com">COMMERCE</option>
+                </select><br><br>
+
+                <p>Gender:</p>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="male">Male</label><br><br>
+
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female">Female</label><br><br>
+
+                <label for="address">Address:</label><br><br>
+                <textarea id="address" name="address" rows="4" cols="35" placeholder="Enter your Address"></textarea><br><br>
+
+                <button type="submit">Submit Registration</button>
+                <button type="reset">Clear Form</button>
+            </fieldset>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <hr>
+    <p align="center">SPA-Student Registration</p>
+</footer>
+
+</body>
+</html>
